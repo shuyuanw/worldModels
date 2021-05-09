@@ -1,3 +1,5 @@
+[project report](./World_Models_reports.pdf)
+
 # World Models
 This repo reproduces the [original implementation](https://github.com/hardmaru/WorldModelsExperiments) of [World Models](https://arxiv.org/abs/1803.10122). This implementation uses TensorFlow 2.2.
 
@@ -17,7 +19,7 @@ jupyter notebook --no-browser --port=8888 --ip=* --allow-root
 
 ## Project progress:
 ### Task 1
-[PaperWork](./World_Models_reports.pdf)
+[project report](./World_Models_reports.pdf)
 
 ### Task 2
 I am able to set up the environment and reproduce the result. However, due to the limitation of the computing power, the result I get is worse than the one in original repo.
