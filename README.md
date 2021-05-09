@@ -40,7 +40,7 @@ series the data, which can be found [here](./WorldModels/results/WorldModels/Car
 Train the RNN model with [architecture](./WorldModels/rnn/rnn.py). The result can be found [here](./WorldModels/results/WorldModels/CarRacing-v0/tf_rnn)
 
 - [train.py](WorldModels/train.py)
-Generate real Car Racing environment and train with previous results and 4 workers. The result can be seen [here](./WorldModels/results/WorldModels/CarRacing-v0/log)
+Generate real Car Racing environment and train with previous results and 4 workers. The result log can be seen [here](./WorldModels/results/WorldModels/CarRacing-v0/log)
 
 - [car_racing.ipynb](WorldModels/car_racing.ipynb)
 visualize vae reconstructed image and the score evolution over time.
@@ -76,7 +76,7 @@ serialize the vaengan parameters.
 Train the same rnn model with [architecture](./WorldModels/vaegan_rnn.py). The result can be found [here](./WorldModels/results/WorldModels/CarRacing-v0/vaegan_rnn)
 
 - [train2.py](WorldModels/train2.py)
-Generate real Car Racing environment and train with 4 workers. The [controller](./WorldModels/vaegan_controller.py) and [env](./WorldModels/vaegan_env.py) are changed to use the vaegan model. The results can be found [here](./WorldModels/results/WorldModels/CarRacing-v0/vaegan_log)
+Generate real Car Racing environment and train with 4 workers. The [controller](./WorldModels/vaegan_controller.py) and [env](./WorldModels/vaegan_env.py) are changed to use the vaegan model. The results log can be found [here](./WorldModels/results/WorldModels/CarRacing-v0/vaegan_log)
 
 - [vaegan_visualization.ipynb](WorldModels/vaegan_visualization.ipynb)
 visualize vae reconstructed image and the score evolution over time with VAEGAN model.
