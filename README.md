@@ -1,3 +1,6 @@
+Author: Shuyuan Wang, NetID: sw3197
+
+Project report for all three tasks can be found here.
 [project report](./World_Models_reports.pdf)
 
 # World Models
@@ -93,6 +96,6 @@ CUDA_VISIBLE_DEVICES=-1 xvfb-run -a -s "-screen 0 1400x900x24 +extension RANDR" 
 
 #### Score
 We only run for 90 generations and with 640 rollouts, 4 workers. I made rnn_batch_size = 5. 
-In my opinion, the score can definitely get higher after more generations.
+In my opinion, the score can definitely get higher after more generations. If I have time, I will run longer to see the score change.
 
 ![alt text](imgs/vaegan_score.png "CarRacing-v0")
